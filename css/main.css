@@ -1,0 +1,151 @@
+@font-face{
+    src: url(week-three-carrot-replica/carrot-fonts/ShadowsIntoLightTwo-Regular.ttf);
+    font-family: ShadowsIntoLightTwo-Regular;
+}
+body{
+    background-color: #FFAD42;
+}
+.nav{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background-color: #FFAD42;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0 15px 0; 
+    position: absolute;
+    left: 40%; 
+    top: 4%;
+     }
+.nav > li{
+    display: inline;
+    padding-right: 49px;
+    font-size: 21px;
+    }
+.nav >li >a{
+    text-decoration: none;
+    color: white;    
+}   
+.nav >li >a:hover{
+    color:#65c57e;
+} 
+h1{
+    color: white;
+    font-size: 31px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: absolute;
+    right: 76%;
+    top: 1%;
+}
+img{
+    width: 4%;
+    margin: 7px auto;
+    position: absolute;
+    left: 102px;
+}
+.lg-carrot{
+    width: 27%;
+    margin: 1px auto;
+    display: block;
+    position: absolute; 
+    left: 9%;
+    bottom: 120px;
+}
+.search{
+    color: #FFAD42;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 35px;
+    left: 75%;
+    bottom: 70%;
+    position: absolute;
+
+    border: solid 3px #65c57e;
+    border-radius: 0;
+    padding: 4px 80px;
+
+    transition-duration: 400ms; 
+
+}
+.search:hover{
+    background: #00b222;
+    color: white;
+    border: solid 3px #00b222 ; 
+}
+
+.white-box{
+    width: 101%;
+    height: 77%;
+    bottom: 6%;
+    display: block;
+    background-color: #f4fcfe;
+    position: absolute;
+    left: 0%;
+
+}
+.footer{
+    width: 101%;
+    height: 17%;
+    bottom: -9%;
+    display: block;
+    background-color: #65c57e;
+    position: absolute;
+    left: 0%;
+}
+.green-btn{
+    width: 23%;
+    height: 9%;
+    bottom: 12%;
+    display: block;
+    background-color: #65c57e;
+    position: absolute;
+    left: 49%;
+}
+.orange-btn{
+    width: 23%;
+    height: 9%;
+    bottom: 12%;
+    display: block;
+    background-color: #FFAD42;
+    position: absolute;
+    left: 74%;
+    
+}
+.orange-btn >p{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: absolute;
+    right:12px;
+    top: -5px;
+}
+.green-btn > p{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: absolute;
+    right: 43px;
+    top: -5px;
+}
+.info{
+    color: #FFAD42;
+    font-family: sans-serif;
+    display: inline-block;
+    position: absolute;
+    font-size: 49px;
+    font-weight: lighter;
+    top: 150px;
+    left: 617px;
+    right: 54px;
+    bottom: 30px;     
+}
+#big-c{
+    font-weight: bold;
+}
+#green-w-a{
+    color: #65c57e;
+}
